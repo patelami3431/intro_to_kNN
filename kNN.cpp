@@ -1,13 +1,13 @@
 /*
  author: "Ami Patel"
- title: "Project 1"
+ title: "kNN Classification"
  date: "03/03/2019"
 */
 
 //---------------------------------------------------------------------------------------------
 /* To run this .cpp file on Rstudio, make sure this file is in your current working directory 
    and then, type the command below in console:
-        Rcpp::sourceCpp(file = "ahp170730_project1.cpp")
+        Rcpp::sourceCpp(file = "kNN.cpp")
  
    ** NOTE: Please make sure the R script, "ahp170730_project1.R" runs before running this .cpp file.
    This is mainly because R script will create the .csv files for C++ program. 
