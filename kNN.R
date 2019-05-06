@@ -1,5 +1,5 @@
 # author: "Ami Patel"
-# title: "Project 1"
+# title: "kNN Classification"
 # date: "03/03/2019"
 
 ###############################################################################################################
@@ -13,7 +13,7 @@ summary(iris$Species)   # Displays the number of setosa, versicolor and virginic
 
 ###### PLOT 1 #############################################################
 
-# Too see how well can Sepal.Length, Sepal.Width, Petal.Length and Petal.Width help us classify the Species
+# To see how well can Sepal.Length, Sepal.Width, Petal.Length and Petal.Width help us classify the Species
 par(mfrow = c(1,2))
 plot(iris$Sepal.Length, iris$Sepal.Width, pch=23, bg=c("red","green3","blue")[unclass(iris$Species)], main="PLOT 1")
 plot(iris$Petal.Length, iris$Petal.Width, pch=23, bg=c("red","green3","blue")[unclass(iris$Species)], main="PLOT 2")
