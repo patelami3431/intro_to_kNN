@@ -9,7 +9,7 @@
    and then, type the command below in console:
         Rcpp::sourceCpp(file = "kNN.cpp")
  
-   ** NOTE: Please make sure the R script, "ahp170730_project1.R" runs before running this .cpp file.
+   ** NOTE: Please make sure the R script, "kNN.R" runs before running this .cpp file.
    This is mainly because R script will create the .csv files for C++ program. 
 */
 
